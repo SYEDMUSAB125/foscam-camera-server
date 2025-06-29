@@ -17,7 +17,7 @@ try {
   process.exit(1);
 }
 
-const rtspUrl = 'rtsp://admin:@192.168.8.101:88/videoMain';
+const rtspUrl = 'rtsp://admin:@192.168.8.100:88/videoMain';
 
 app.get('/stream', (req, res) => {
   console.log('New client connected to stream');
